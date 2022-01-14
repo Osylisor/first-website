@@ -1,0 +1,191 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar{
+    background-color: rgb(24, 23, 23);
+    height: 68px;
+    width: 100%;
+}
+
+ul{
+	
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+   
+}
+
+li a{
+	
+    display: block;
+    padding: 25px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+
+}
+
+li{
+
+    float: left;
+}
+
+li a:hover{
+    background-color: rgb(51, 255, 0);
+    color: rgb(0, 0, 0);
+}
+
+.wel-section{
+
+
+    background-color: rgba(0, 0, 0, 0.4);
+    background-image: url('Web.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: honeydew;
+    height: 300px;
+
+}
+
+.wel-section p{
+
+    font-size: 32px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.service-section{
+    margin: 0;
+    padding: 0;
+}
+
+.service-section h1{
+    margin: 0;
+    padding: 12px;
+    color: white;
+    text-align: center;
+    background-color: rgb(24, 23, 23);
+}
+
+
+
+.service-section ul{
+
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+}
+
+.service-section li div{
+    background-color: rgb(24, 23, 23);
+    height: 200px;
+    padding: 12px;
+}
+
+.service-section li div h2{
+   color:white;
+   text-align: center;
+}
+
+.service-section li div p{
+    color:white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .about-section{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(63, 61, 61);
+    height: 250px;
+ }
+
+
+ .about-section h1{
+    margin: 0;
+    padding: 0;
+    padding: 12px;
+    color: white;
+    text-align: center;
+ }
+
+ .about-section p{
+    color:white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+ }
+
+ .contact-session{
+    margin: 0;
+    padding: 12px;
+    background-color: rgb(24, 23, 23);
+    
+ }
+
+ .contact-session h1{
+    text-align: center;
+    padding: 12px;
+    color:white;
+ }
+
+ .contact-session form{
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    display: block;
+    padding: 12px;
+ }
+
+
+ .contact-session form input[type = "text"]{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 8px 0;
+    border-radius: 0%;
+ 
+ }
+
+ .contact-session form label{
+     color:white;
+ }
+
+
+ .contact-session form textarea{
+     box-sizing: border-box;
+     padding: 20px;
+     width: 100%;
+     margin: 8px 0;
+ }
+
+ .contact-session form input[type = 'button']{
+     color: white;
+     background-color: rgb(51, 255, 0);
+     width: 100px;
+     height: 50px;
+     box-sizing: border-box;
+     padding: 12px;
+     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+     
+ }
+
+ .contact-session form input[type = 'button']:hover{
+    background-color: rgb(43, 175, 9);
+    cursor: pointer;
+
+}
